@@ -17,7 +17,6 @@ class PotentialStudentService {
 
 data class PotentialStudentValidation(
     val name: String,
-    val givenAge: Int,
     val predictedAge: Int,
     val universityInTheCountry: Boolean,
     val givenEmailAddress: String,

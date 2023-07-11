@@ -4,11 +4,9 @@ import org.springframework.http.MediaType
 import org.springframework.stereotype.Component
 import org.springframework.web.reactive.function.client.WebClient
 import reactor.core.publisher.Mono
-import java.lang.RuntimeException
 
 @Component
 class AgePredictorClient {
-
 
     private val client = WebClient.create("https://api.agify.io/")
 

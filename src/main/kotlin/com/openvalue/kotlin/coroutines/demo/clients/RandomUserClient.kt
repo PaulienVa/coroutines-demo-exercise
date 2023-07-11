@@ -2,11 +2,9 @@ package com.openvalue.kotlin.coroutines.demo.clients
 
 import org.springframework.http.MediaType
 import org.springframework.stereotype.Component
-import org.springframework.web.reactive.function.client.ClientResponse
 import org.springframework.web.reactive.function.client.WebClient
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
-import java.lang.RuntimeException
 
 @Component
 class RandomUserClient {
